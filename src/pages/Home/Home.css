@@ -38,3 +38,7 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.hero-btns .btn.dark-btn{
+    color: #fff;
+    background: #6d6d6eb3;
+}

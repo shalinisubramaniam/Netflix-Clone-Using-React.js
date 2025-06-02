@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './TitleCards.css'
 import cards_data from '../../assets/cards/Cards_data'
 import { Link } from 'react-router-dom'
@@ -32,7 +32,7 @@ const TitleCards = ({title, category}) => {
   },[])
 
   return (
-    <div className='titlecards'>
+    <div className='title-cards'>
       <h2>{title? title: "Popular on Netflix"}</h2>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((card, index)=>{

@@ -4,7 +4,7 @@ import Login from './pages/Login/Login'
 import Player from './pages/Player/Player'
 import { onAuthStateChanged } from 'firebase/auth'
 import { useEffect } from 'react'
-import { auth } from './Firebase'
+import { auth } from './firebase'
 
 const App = () => {
 

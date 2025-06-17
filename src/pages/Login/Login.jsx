@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
-import { login, signup } from '../../firebase'
+import { login, signup } from '../../Firebase'
 
 const Login = () => {
 

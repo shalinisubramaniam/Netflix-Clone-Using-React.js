@@ -1,12 +1,37 @@
-# React + Vite
+# Netflix Clone 🎬🍿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive Netflix UI Clone built using **React.js**, styled with **CSS**, powered by **TMDB API** for movie data, and **Firebase Authentication** for login/signup.
 
-Currently, two official plugins are available:
+👉 **Live Site**: [Netflix Clone on GitHub Pages](https://shalinisubramaniam.github.io/Netflix-Clone-Using-React.js/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- User authentication (Login/Signup with Firebase)
+- TMDB API integration for real-time movie data
+- Dynamic movie banners, rows, and thumbnails
+- Hover effects and smooth scrolling
+- Responsive design for all screen sizes
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
+- **Frontend:** React.js, CSS, Vite
+- **Authentication:** Firebase
+- **API:** TMDB (The Movie Database)
+- **Deployment:** GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/e02a53bf-205e-4e6e-9621-72577111acb2)
+![image](https://github.com/user-attachments/assets/c9bf3427-329b-4fe4-9b27-9413e1b293dd)
+![image](https://github.com/user-attachments/assets/0548ef0d-13bf-4a7b-b35b-216adfb85148)
+![image](https://github.com/user-attachments/assets/72e9335d-db67-4d18-96f0-46a076b409b2)
+![image](https://github.com/user-attachments/assets/5b097d25-9cf8-4a26-9e08-91a281617fe0)
+![image](https://github.com/user-attachments/assets/ef0cc99c-0896-445a-bcb7-89d05000a6b2)
+![image](https://github.com/user-attachments/assets/8e85263f-e399-444d-adee-ca00f9ee4577)
+
+
+## 📁 How to Run Locally
+
+```bash
+git clone https://github.com/shalinisubramaniam/Netflix-Clone-Using-React.js.git
+cd Netflix-Clone-Using-React.js
+npm install
+npm run dev
